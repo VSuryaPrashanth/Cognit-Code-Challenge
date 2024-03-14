@@ -37,7 +37,7 @@ const handlerTwoSum = (fn: any) => {
 
 export const twoSum: Problem = {
 	id: "two-sum",
-	title: "2. Two Sum",
+	title: "1. Two Sum",
 	problemStatement: `<p class='mt-3'>
   Given an array of integers <code>nums</code> and an integer <code>target</code>, return
   <em>indices of the two numbers such that they add up to</em> <code>target</code>.
@@ -78,6 +78,6 @@ export const twoSum: Problem = {
 </li>`,
 	handlerFunction: handlerTwoSum,
 	starterCode: starterCodeTwoSum,
-	order: 2,
+	order: 1,
 	starterFunctionName: "function twoSum(",
 };
